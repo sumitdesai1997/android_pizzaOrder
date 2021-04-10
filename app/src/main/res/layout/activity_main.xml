@@ -71,6 +71,7 @@
                 android:id="@+id/rbSmall"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="Small"
                 android:textSize="18sp" />
 
@@ -82,7 +83,7 @@
                 android:textSize="18sp" />
 
             <RadioButton
-                android:id="@+id/ebLarge"
+                android:id="@+id/rbLarge"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:text="Large"
@@ -102,7 +103,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/tvPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
@@ -210,7 +211,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/tvQty"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
